@@ -1,1 +1,11 @@
 // Your custom SCSS should be written here...
+
+nav{
+  ul#menu{
+    li{
+      a{
+        padding: 0 em(100px);
+      }
+    }
+  }
+}
