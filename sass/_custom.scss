@@ -18,11 +18,17 @@ section#bio{
 
   div.borda_foto{
     background: #fff;
+    cursor: pointer;
     padding: 3%;
     @include border-radius(50%);
+    @include single-transition(all,0.5s);
     text-align: center;
     img{
       @include border-radius(50%);
+    }
+    &:hover{
+      padding: 0;
+      background: transparent;
     }
   }
   h1{

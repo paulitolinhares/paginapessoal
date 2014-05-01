@@ -1687,8 +1687,9 @@ nav ul#menu li a { padding: 0 6.25em; }
 section { padding: 1.875em 0; }
 
 section#bio { background: #979797; }
-section#bio div.borda_foto { background: #fff; padding: 3%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; text-align: center; }
+section#bio div.borda_foto { background: #fff; cursor: pointer; padding: 3%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; text-align: center; }
 section#bio div.borda_foto img { -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; }
+section#bio div.borda_foto:hover { padding: 0; background: transparent; }
 section#bio h1 { font-size: 3.5rem; color: #fff; }
 section#bio p { color: #fff; }
 
