@@ -10,9 +10,12 @@ nav{
   }
 }
 
+section{
+  padding: em(30px) 0;
+}
 section#bio{
   background: #979797;
-  padding: em(30px) 0;
+
   div.borda_foto{
     background: #fff;
     padding: 3%;
@@ -28,5 +31,40 @@ section#bio{
   }
   p{
     color: #fff;
+  }
+}
+section#portfolio{
+  h2{
+    text-align: center;
+    color: #222222;
+  }
+  div.caixa_conteudo{
+    position: relative;
+    margin-bottom: em(20px);
+    // cursor: pointer;
+    img{
+    }
+    div.conteudo{
+      @include single-transition(all,0.5s);
+      background: #282828;
+      padding: em(10px);
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      // propriedades animadas
+      height: 0%;
+      opacity: 0;
+      p,h3{
+        color: #fff;
+        text-align: center;
+      }
+    }
+    &:hover{
+      div.conteudo{
+        height: 100%;
+        opacity: 0.9;
+      }
+    }
   }
 }
