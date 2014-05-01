@@ -74,3 +74,25 @@ section#portfolio{
     }
   }
 }
+section#contato{
+  background: #dbdbdb;
+  h2{
+    text-align: center;
+  }
+  ul#social_media{
+    @include horizontal-list(em(15px));
+  }
+  a{
+    display: block;
+    text-align: center;
+    color: #444444;
+  }
+}
+footer{
+  background: #282828;
+  padding: em(10px);
+  p{
+    color: #fff;
+    margin: 0;
+  }
+}

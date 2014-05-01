@@ -1698,3 +1698,17 @@ section#portfolio div.caixa_conteudo { position: relative; margin-bottom: 1.25em
 section#portfolio div.caixa_conteudo div.conteudo { -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; background: #282828; padding: 0.625em; width: 100%; position: absolute; top: 0; left: 0; height: 0%; opacity: 0; }
 section#portfolio div.caixa_conteudo div.conteudo p, section#portfolio div.caixa_conteudo div.conteudo h3 { color: #fff; text-align: center; }
 section#portfolio div.caixa_conteudo:hover div.conteudo { height: 100%; opacity: 0.9; }
+
+section#contato { background: #dbdbdb; }
+section#contato h2 { text-align: center; }
+section#contato ul#social_media { margin: 0; padding: 0; border: 0; *zoom: 1; }
+section#contato ul#social_media:before, section#contato ul#social_media:after { content: ""; display: table; }
+section#contato ul#social_media:after { clear: both; }
+section#contato ul#social_media li { list-style-image: none; list-style-type: none; margin-left: 0; white-space: nowrap; display: inline; float: left; padding-left: 0.9375em; padding-right: 0.9375em; }
+section#contato ul#social_media li:first-child, section#contato ul#social_media li.first { padding-left: 0; }
+section#contato ul#social_media li:last-child { padding-right: 0; }
+section#contato ul#social_media li.last { padding-right: 0; }
+section#contato a { display: block; text-align: center; color: #444444; }
+
+footer { background: #282828; padding: 0.625em; }
+footer p { color: #fff; margin: 0; }
